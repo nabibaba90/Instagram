@@ -3,5 +3,5 @@ services:
     name: instagram-clone
     env: python
     buildCommand: ""
-    startCommand: "python app.py"
+    startCommand: "gunicorn fake_inistagram.py"
     plan: free
